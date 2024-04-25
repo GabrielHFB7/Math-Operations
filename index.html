@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações Matemáticas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Operações Matemáticas com JS</h1>
+        <p id="subtlt">Realização de operações matemáticas básicas com o uso de JavaScript</p>
+
+
+        <h2>Soma</h2>
+        <input class="mIpt" type="number" id="som1" placeholder="Digite um número"> <span>+</span>
+        <input type="number" id="som2" placeholder="Digite um número"> <span>=</span>
+        <input type="number" id="iptSom" placeholder="Resultado" readonly>
+        <input type="button" id="sombt" value="Calcular" onclick="somar()">
+        <p class="styIPT" id="somR"></p>
+
+        <h2>Subtração</h2>
+        <input class="mIpt" type="number" id="sub1" placeholder="Digite um número"> <span>-</span>
+        <input type="number" id="sub2" placeholder="Digite um número"> <span>=</span>
+        <input type="number" id="iptSub" placeholder="Resultado" readonly>
+        <input type="button" id="subbt" value="Calcular" onclick="subtrair()">
+        <p class="styIPT" id="subR"></p>
+
+        <h2>Multiplicação</h2>
+        <input class="mIpt" type="number" id="mul1" placeholder="Digite um número"> <span>x</span>
+        <input type="number" id="mul2" placeholder="Digite um número"> <span>=</span>
+        <input type="number" id="iptM" placeholder="Resultado" readonly> 
+        <input type="button" id="mulbt" value="Calcular" onclick="multiplicar()">
+        <p class="styIPT" id="mulR"></p>
+
+        <h2>Divisão</h2>
+        <input class="mIpt" type="number" id="div1" placeholder="Digite um número"> <span>÷</span>
+        <input type="number" id="div2" placeholder="Digite um número"> <span>=</span>
+        <input type="number" id="iptD" placeholder="Resultado" readonly>
+        <input type="button" id="divbt" value="Calcular" onclick="dividir()">
+        <p class="styIPT" id="divR"></p>
+
+        <h2>Potenciação</h2>
+        <input class="mIpt" type="number" id="pot1" placeholder="Base"> <span>^</span>
+        <input type="number" id="pot2" placeholder="Expoente"> <span>=</span>
+        <input type="number" id="iptP" placeholder="Resultado" readonly>
+        <input type="button" id="potbt" value="Calcular" onclick="elevar()">
+        <p class="styIPT" id="potR"></p>
+
+        <footer>
+            <p id="aviso">OBS: OS resultados serão apresentados com apenas duas casas decimais!</p>
+        </footer>
+
+    </div>
+
+<script src="index.js"></script>    
+</body>
+</html>
